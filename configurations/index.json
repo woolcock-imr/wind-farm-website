@@ -15,6 +15,10 @@
 		"about-woolcock-research":
 		{
 			"url":"https://woolcock-imr.github.io/wind-farm-website-modules-by-garry/modules/static/about-woolcock-research.html"
+		},
+		"researchers":
+		{
+			"url":"https://woolcock-imr.github.io/wind-farm-website-modules-by-garry/modules/static/researchers.html"
 		}
 	}
 }

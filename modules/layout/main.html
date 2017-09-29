@@ -13,7 +13,7 @@ VmInclude:/modules/layout/footer.html
 			$('#content_container__ID').css({'top':header_height+'px'})
 			console.log('window:'+$(window).height()+', header:'+header_height+', footer:'+footer_height);
 		}
-		setTimeout(function (){	set_height();},10);	setTimeout(function (){	set_height();},2000);
+		setTimeout(function (){	set_height();},100);	setTimeout(function (){	set_height();},2000);
 		//------------------------------------
 		window.onmessage=function(e){
 		    if(e.data.username!=undefined && e.data.user_id!=undefined){
@@ -26,10 +26,12 @@ VmInclude:/modules/layout/footer.html
 		//-----------------------------------------
 		$vm.nav_load_module('home');
 		//-----------------------------------------
+		/*
 		var $image1 = $("<img>");
 		$image1.on('load',(function(){ $('body').css("background", "url("+$(this).attr("src")+") no-repeat bottom center"); $('body').css("background-size", "cover");  }));
 		$image1.attr("src", "__HOST__/images/background.jpg");
 		//-----------------------------------------
+		*/
 	}
 </script>
 <style main-layout-css>

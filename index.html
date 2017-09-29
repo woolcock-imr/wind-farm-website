@@ -108,9 +108,6 @@
 				}
 				//--------------------------------------------------------
 				$vm.url=function(text){
-					//replace clinical trilas
-					text=text.replace(/__BASE__\/vmiis\/Common-Code\/clinical_trials\/task.js/,'__HOST__/modules/dynamic/flat/task/task.js');
-					text=text.replace(/__BASE__\/vmiis\/Common-Code\/clinical_trials\/participant.js/,'__HOST__/modules/dynamic/flat/task/task.form.js');
 					//replace some text in old modules to the correct ones
 					text=text.replace(/__BASE__\/vmiis\/Common-Code\//g,'__PARTS__/');
 					text=text.replace(/__LIB__\/vmiis\/Common-Code\//g,'__PARTS__/');

@@ -1,24 +1,8 @@
 {
-	"parts_path":"https://vmiis.github.io/parts",
 	"api_path_development":"https://cbs.wappsystem.com/dev/",
 	"api_path_production":"https://rt.woolcock.org.au/",
-	"modules":
-	{
-		"home":
-		{
-			"url":"https://woolcock-imr.github.io/wind-farm-website-modules-by-garry/modules/static/home.html"
-		},
-		"purpose-of-research":
-		{
-			"url":"https://woolcock-imr.github.io/wind-farm-website-modules-by-garry/modules/static/purpose-of-research.html"
-		},
-		"about-woolcock-research":
-		{
-			"url":"https://woolcock-imr.github.io/wind-farm-website-modules-by-garry/modules/static/about-woolcock-research.html"
-		},
-		"researchers":
-		{
-			"url":"https://woolcock-imr.github.io/wind-farm-website-modules-by-garry/modules/static/researchers.html"
-		}
+	"default_production":"Yes",
+	"panels":{
+		"panel_main":{"url":"","modules":["main.json"]}
 	}
 }

@@ -46,6 +46,19 @@
             $('#username__ID').text('Signed in as '+ $vm.user);
         }
         //---------------------------------------------
+		if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+			$('#form__ID').parent().prepend($('#form__ID'));
+		}
+		//---------------------------------------------
+		$(".navbar-nav").hide();
+		var navbars_loop=setInterval(function (){
+			if($vm.js_popper==1){
+				clearInterval(navbars_loop);
+				$(".navbar-nav").show();
+                console.log((new Date().getTime()-$vm.start_time).toString()+"---"+"********************** menu is ready ************************");
+			}
+		},100);
+		//------------------------------------
     </script>
     <style>
         #header__ID{

@@ -132,7 +132,7 @@ var vm_init=function(){
 		}
         if(window.location.hostname=='127.0.0.1' || window.location.hostname=='localhost'){
             //use local version of remote modules
-			text=text.replace(/https:\/\/volunteer-database.rt.org.au/g,window.location.protocol+'//'+window.location.host+'/woolcock-imr/volunteer-database-2');
+			text=text.replace(/https:\/\/woolcock-imr.github.io\/wind-farm-website-modules-by-garry/g,window.location.protocol+'//'+window.location.host+'/woolcock-imr/wind-farm-website-modules-by-garry');
 		}
 		return text;
 	}
